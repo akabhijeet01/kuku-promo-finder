@@ -1,6 +1,6 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[9.5pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.52in,top=0.45in,bottom=0.52in]{geometry}
+\usepackage[margin=0.45in,top=0.38in,bottom=0.45in]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{tabularx}
@@ -19,41 +19,36 @@
 
 \definecolor{navyblue}{RGB}{15, 43, 92}
 \definecolor{darkslate}{RGB}{30, 41, 59}
-\definecolor{lightgray}{RGB}{241, 245, 249}
-\definecolor{bordergray}{RGB}{203, 213, 225}
 
-\setlist[itemize]{leftmargin=11pt, itemsep=1pt, topsep=1.5pt, parsep=0pt}
-\setlist[enumerate]{leftmargin=11pt, itemsep=1pt, topsep=1.5pt, parsep=0pt}
+\setlist[itemize]{leftmargin=10pt, itemsep=0.5pt, topsep=1pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=10pt, itemsep=0.5pt, topsep=1pt, parsep=0pt}
 
-\titleformat{\section}{\large\bfseries\color{navyblue}}{}{0em}{}[\vspace{-2pt}\titlerule\vspace{2pt}]
-\titlespacing*{\section}{0pt}{4pt}{3pt}
-
-\titleformat{\subsection}{\normalsize\bfseries\color{darkslate}}{}{0em}{}
-\titlespacing*{\subsection}{0pt}{3pt}{2pt}
+\titleformat{\section}{\normalsize\bfseries\color{navyblue}}{}{0em}{}[\vspace{-3pt}\titlerule\vspace{2pt}]
+\titlespacing*{\section}{0pt}{3pt}{2pt}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{2.5pt}
+\setlength{\parskip}{1.8pt}
 
 \begin{document}
 
 % ── HEADER ───────────────────────────────────────────────────────────────
 \begin{minipage}[t]{0.68\textwidth}
-    {\LARGE\bfseries\color{navyblue} Kuku AI Generalist Assignment} \\[1pt]
-    {\large\bfseries\color{darkslate} Finding Viral Microdrama Promos from Screenplays} \\[2pt]
-    {\footnotesize\color{gray} Show: \textit{I Married a Broken Soldier. He was a Duke} (Episodes 1--50)}
+    {\Large\bfseries\color{navyblue} Kuku AI Generalist Assignment} \\[1pt]
+    {\normalsize\bfseries\color{darkslate} Finding Viral Microdrama Promos from Screenplays} \\[1pt]
+    {\scriptsize\color{gray} Target Show: \textit{I Married a Broken Soldier. He was a Duke} (Episodes 1--50)}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.30\textwidth}
     \raggedleft
-    {\small\bfseries Abhijeet Kumar} \\
-    {\footnotesize Placement 2026 / AI Generalist} \\
-    {\footnotesize Python $\cdot$ Streamlit $\cdot$ Gemini Flash} \\
-    {\scriptsize\url{https://github.com/abhijeetkumar/kuku-promo-finder}}
+    {\footnotesize\bfseries Abhijeet Kumar} \\
+    {\scriptsize Placement 2026 / AI Generalist} \\
+    {\scriptsize Python $\cdot$ Streamlit $\cdot$ Gemini Flash $\cdot$ LaTeX} \\
+    {\tiny\url{https://github.com/abhijeetkumar/kuku-promo-finder}}
 \end{minipage}
 
+\vspace{2pt}
+\hrule height 0.6pt
 \vspace{3pt}
-\hrule height 0.8pt
-\vspace{4pt}
 
 % ── 1. PROBLEM CHOICE & WHY ──────────────────────────────────────────────
 \section{1. Why Problem 1 \& My Core Framing}
@@ -92,28 +87,30 @@ I built a modular, standalone Python toolkit that anyone can run immediately on 
 \newpage
 
 % ── 4. RANKED PROMOS ─────────────────────────────────────────────────────
-\section{4. Top 5 Ranked Promos: Which to Post First and Why}
+\section{4. Top 5 Ranked Promos: Selection \& Strategic Posting Rationale}
 Running the pipeline across all 50 episodes of \textit{I Married a Broken Soldier} selected 20 top promos. Here are the top 5 clips I would queue for ad campaigns first, along with the marketing rationale:
 
-\vspace{2pt}
+\vspace{1pt}
 \begin{center}
-\small
+\scriptsize
 \begin{tabularx}{\textwidth}{c l c X X}
 \toprule
 \textbf{\#} & \textbf{Episode \& Times} & \textbf{Dur.} & \textbf{Opening Hook (First 3s)} & \textbf{Closing Cliffhanger / Why Post First} \\
 \midrule
-\textbf{1} & \textbf{Ep 24} \newline 00:20 $\to$ 00:40 & 20s & \textbf{Juliana:} ``I heard her. I thought Her Grace needed help.'' & \textbf{Prudence:} ``No, my lady.'' (Caught red-handed over dying Duchess). \newline \textit{Posting Strategy:} Pure suspense. Cold audience immediately grasps: girl caught in forbidden room. \\
-\addlinespace[3pt]
-\textbf{2} & \textbf{Ep 43} \newline 00:10 $\to$ 00:30 & 20s & \textbf{Rupert:} ``I said arrest him!'' (Hysterical panic) & \textbf{Officer:} ``Rupert Ashburn...'' (Royal treason warrant read). \newline \textit{Posting Strategy:} Instant justice reversal. Usurper commands arrest, but royal guards refuse. High dopamine. \\
-\addlinespace[3pt]
-\textbf{3} & \textbf{Ep 28} (00:00--00:22) \newline \textbf{Ep 43} (01:00--01:30) & 52s & \textbf{Catherine:} ``She looks exactly like a poisoner.'' (Holds up vial) & \textbf{Crown Officer:} ``...under arrest for high treason!'' \newline \textit{Posting Strategy:} Problem-Payoff ad montage. Innocent heroine framed cut to villains in shackles. Proven 2x CTR on Meta ads. \\
-\addlinespace[3pt]
-\textbf{4} & \textbf{Ep 3} \newline 00:40 $\to$ 01:05 & 25s & \textbf{Matriarch:} ``You leave.'' \newline \textbf{Juliana:} ``Leave where?'' & \textbf{Matriarch:} ``Not anymore.'' (Guards seize bride). \newline \textit{Posting Strategy:} Outrage-bait. Discarded daughter kicked out of church. Triggers immediate comment debate. \\
-\addlinespace[3pt]
-\textbf{5} & \textbf{Ep 15} \newline 00:00 $\to$ 00:20 & 20s & \textbf{Juliana:} ``Stop! What are you doing?!'' & \textbf{Thug:} ``Orders are to clear this dirt.'' (Boot tramples mother's ledger). \newline \textit{Posting Strategy:} Visceral bullying. Thugs destroying late mother's garden triggers protective sympathy. \\
+\textbf{1} & \textbf{Ep 24} \newline 00:20 $\to$ 00:40 & 20s & \textbf{Juliana:} ``I heard her. I thought Her Grace needed help.'' & \textbf{Prudence:} ``No, my lady.'' (Caught red-handed over dying Duchess). \newline \textit{Strategy:} Pure suspense. Cold audience instantly grasps: maid caught in forbidden room. \\
+\addlinespace[2pt]
+\textbf{2} & \textbf{Ep 43} \newline 00:10 $\to$ 00:30 & 20s & \textbf{Rupert:} ``I said arrest him!'' (Hysterical panic) & \textbf{Officer:} ``Rupert Ashburn...'' (Royal treason warrant read). \newline \textit{Strategy:} Instant justice reversal. Usurper commands arrest, but royal guards refuse. High dopamine. \\
+\addlinespace[2pt]
+\textbf{3} & \textbf{Ep 28} (00:00--00:22) \newline \textbf{Ep 43} (01:00--01:30) & 52s & \textbf{Catherine:} ``She looks exactly like a poisoner.'' (Holds up vial) & \textbf{Crown Officer:} ``...under arrest for high treason!'' \newline \textit{Strategy:} Problem-Payoff ad montage. Innocent heroine framed cut to villains in shackles. 2x CTR on ads. \\
+\addlinespace[2pt]
+\textbf{4} & \textbf{Ep 3} \newline 00:40 $\to$ 01:05 & 25s & \textbf{Matriarch:} ``You leave.'' \newline \textbf{Juliana:} ``Leave where?'' & \textbf{Matriarch:} ``Not anymore.'' (Guards seize bride). \newline \textit{Strategy:} Outrage-bait. Discarded daughter kicked out of church. Triggers immediate comment debate. \\
+\addlinespace[2pt]
+\textbf{5} & \textbf{Ep 15} \newline 00:00 $\to$ 00:20 & 20s & \textbf{Juliana:} ``Stop! What are you doing?!'' & \textbf{Thug:} ``Orders are to clear this dirt.'' (Boot tramples ledger). \newline \textit{Strategy:} Visceral bullying. Thugs destroying late mother's garden triggers immediate protective sympathy. \\
 \bottomrule
 \end{tabularx}
 \end{center}
+
+\vspace{-2pt}
 
 % ── 5. QUALITY AUDIT & WHERE IT FAILS ────────────────────────────────────
 \section{5. Honest Quality Check: Where Does My Tool Pick Badly?}
@@ -129,11 +126,9 @@ No automated tool is perfect, especially when analyzing literature instead of fi
 % ── 6. SCALE, ECONOMICS & AI USAGE ───────────────────────────────────────
 \section{6. Real-World Scaling, Unit Economics \& How I Used AI}
 \textbf{How this holds up at Kuku's weekly volume:}
-\begin{itemize}
-    \item \textbf{Speed:} The Python engine processes 50 episodes in \textbf{1.2 seconds}. An entire week's slate of 5 new microdramas ($250$ episodes) parses in under 10 seconds on a single CPU core.
-    \item \textbf{Cost:} The deterministic pipeline costs \textbf{\$0.00}. If Kuku enables the optional LLM re-ranking using Gemini 2.0 Flash, evaluating 20 shortlisted candidates consumes $\approx 25\text{k}$ tokens, costing \textbf{\$0.008 per show} (less than one cent).
-    \item \textbf{Human-in-the-loop workflow:} Editors no longer scrub through 50 raw video timelines. They open the dashboard, review the Top 5 candidates, and cut straight to the exact timestamps. What took 4--5 hours now takes 15 minutes.
-\end{itemize}
+The Python engine processes 50 episodes in \textbf{1.2 seconds}. An entire week's slate of 5 new microdramas ($250$ episodes) parses in under 10 seconds on a single CPU core at \textbf{\$0.00 cost}.
+If Kuku enables the optional LLM re-ranking using Gemini 2.0 Flash, evaluating 20 shortlisted candidates consumes $\approx 25\text{k}$ tokens, costing \textbf{\$0.008 per show} (less than one cent).
+Editors no longer scrub through 50 raw video timelines; they review the Top 5 candidates and cut straight to the timestamps. What took 4--5 hours now takes 15 minutes.
 
 \textbf{How I used AI and one place it failed me:}
 I used Claude Opus 4.6 (Thinking) to pair-program the screenplay regex parsing and bounce heuristic concepts.
