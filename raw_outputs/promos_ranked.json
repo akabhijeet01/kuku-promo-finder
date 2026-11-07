@@ -1,0 +1,510 @@
+{
+  "show": "I Married a Broken Soldier. He was a Duke",
+  "total_promos_found": 20,
+  "promos": [
+    {
+      "segments": [
+        {
+          "episode": 24,
+          "start": "00:20.00",
+          "end": "00:40.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "LADY JULIANA: \"I heard her. I thought Her Grace needed help.\"",
+      "cliffhanger": "NOBLEWOMAN: \"Not a physician. Not a lady.\"",
+      "why_it_works": "Strong hook (Contains hook signals: ring, gasp, strike); Cliffhanger (cliffhanger signals: no); High emotional intensity",
+      "scores": {
+        "dramatic": 41.2,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 69.2
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:10.00",
+          "end": "00:30.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "BLOND NOBLEMAN: \"I said arrest him!\"",
+      "cliffhanger": "ALEXANDER: \"Then let the Crown decide.\"",
+      "why_it_works": "Strong hook (Contains hook signals: crown, arrest, duke, ring, secret); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 38.2,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 66.2
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 28,
+          "start": "00:00.00",
+          "end": "00:22.00",
+          "duration_seconds": 22.0
+        },
+        {
+          "episode": 43,
+          "start": "01:00.00",
+          "end": "01:30.00",
+          "duration_seconds": 30.0
+        }
+      ],
+      "total_duration_seconds": 52.0,
+      "hook": "CATHERINE: \"She looks exactly like a poisoner.\" / RUPERT: \"Guards, extract the truth.\"",
+      "cliffhanger": "CROWN OFFICIAL: \"Lord Henry Sterling, you are under arrest for high treason against the Crown.\"",
+      "why_it_works": "Justice / revenge narrative: Innocent heroine framed for poison (Ep 28) cut to conspirators arrested by royal decree (Ep 43).",
+      "scores": {
+        "dramatic": 38.5,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 7.0,
+        "overall_rank_score": 65.5
+      },
+      "quality_issues": [
+        "Two-shot montage \u2014 requires visual title card or smash cut between segments"
+      ],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 3,
+          "start": "00:40.00",
+          "end": "01:05.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "NOBLE MATRIARCH: \"You leave.\"",
+      "cliffhanger": "LADY JULIANA: \"Please! Someone!\"",
+      "why_it_works": "Strong hook (Contains hook signals: drag, force, grab); Cliffhanger (cliffhanger signals: please, no; ends at scene/episode boundary); High emotional intensity",
+      "scores": {
+        "dramatic": 36.0,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 64.0
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:00.00",
+          "end": "00:20.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "JULIANA: \"Stop! What are you doing?!\"",
+      "cliffhanger": "JULIANA: \"Those are medicinal plants!\"",
+      "why_it_works": "Strong hook (Contains hook signals: shatter, ring); Cliffhanger (cliffhanger signals: stop); High emotional intensity",
+      "scores": {
+        "dramatic": 35.2,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 63.2
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 43,
+          "start": "00:00.00",
+          "end": "00:20.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "BLOND NOBLEMAN: \"You're lying!\"",
+      "cliffhanger": "BLOND NOBLEMAN: \"Your Duke!\"",
+      "why_it_works": "Strong hook (Contains hook signals: arrest, duke, ring, sword, imposter); Cliffhanger (cliffhanger signals: no); High emotional intensity",
+      "scores": {
+        "dramatic": 33.8,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 61.8
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 33,
+          "start": "00:55.00",
+          "end": "01:15.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "MAID: \"No!\"",
+      "cliffhanger": "LORD: \"Then help him.\"",
+      "why_it_works": "Strong hook (Contains hook signals: tears, gasp); Cliffhanger (cliffhanger signals: please, no); High emotional intensity",
+      "scores": {
+        "dramatic": 33.8,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 61.8
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 24,
+          "start": "00:25.00",
+          "end": "00:50.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "LADY JULIANA: \"She is suffering.\"",
+      "cliffhanger": "NOBLEWOMAN: \"Good. Perhaps we can teach you your place.\"",
+      "why_it_works": "Strong hook (Contains hook signals: ring, gasp, strike); Cliffhanger (cliffhanger signals: no; ends at scene/episode boundary); High emotional intensity",
+      "scores": {
+        "dramatic": 33.6,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 61.6
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:10.00",
+          "end": "00:30.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "BLOND NOBLEMAN: \"Who are you?\"",
+      "cliffhanger": "ROYAL GUARD: \"Because we know who he is.\"",
+      "why_it_works": "Strong hook (Contains hook signals: arrest, imposter); Cliffhanger (cliffhanger signals: who are you, no, why); Multi-character confrontation (4 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 33.8,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 6.0,
+        "overall_rank_score": 59.8
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 1,
+          "start": "00:33.00",
+          "end": "00:44.00",
+          "duration_seconds": 11.0
+        },
+        {
+          "episode": 3,
+          "start": "01:59.00",
+          "end": "02:22.00",
+          "duration_seconds": 23.0
+        }
+      ],
+      "total_duration_seconds": 34.0,
+      "hook": "LADY JULIANA: \"Why are you holding her hand?\" / LADY IN GOLD GOWN: \"Because he is marrying me.\"",
+      "cliffhanger": "THE BEARDED STRANGER: \"Lady Juliana... accept my hand.\"",
+      "why_it_works": "High-contrast narrative hook: Altar abandonment (Ep 1) juxtaposed with heroic stranger's instant proposal (Ep 3). Zero backstory required.",
+      "scores": {
+        "dramatic": 31.0,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 59.0
+      },
+      "quality_issues": [
+        "Two-shot montage \u2014 requires visual title card or smash cut between segments"
+      ],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 14,
+          "start": "00:00.00",
+          "end": "00:25.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "JULIANA: \"I found it.\"",
+      "cliffhanger": "ALEXANDER: \"What have they done to you?\"",
+      "why_it_works": "Strong hook (Contains hook signals: stab, reveal, blood, ring); Cliffhanger (cliffhanger signals: no); High emotional intensity",
+      "scores": {
+        "dramatic": 30.0,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 58.0
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 3,
+          "start": "00:20.00",
+          "end": "01:05.00",
+          "duration_seconds": 45.0
+        }
+      ],
+      "total_duration_seconds": 45.0,
+      "hook": "LADY IN GOLD GOWN: \"Now it is mine.\"",
+      "cliffhanger": "LADY JULIANA: \"Please! Someone!\"",
+      "why_it_works": "Strong hook (Contains hook signals: humiliated, drag, force, grab); Cliffhanger (cliffhanger signals: please, no; ends at scene/episode boundary); Multi-character confrontation (3 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 28.7,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 56.7
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 15,
+          "start": "00:40.00",
+          "end": "01:00.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "JULIANA: \"It is my home. You have no right to destroy anything here.\"",
+      "cliffhanger": "BALD THUG: \"Look at her! Crying over weeds!\"",
+      "why_it_works": "Strong hook (Contains hook signals: shove, cry, blood, crash, bow); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 28.5,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 56.5
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 41,
+          "start": "01:05.00",
+          "end": "01:36.00",
+          "duration_seconds": 31.0
+        },
+        {
+          "episode": 42,
+          "start": "00:00.00",
+          "end": "00:28.00",
+          "duration_seconds": 28.0
+        }
+      ],
+      "total_duration_seconds": 59.0,
+      "hook": "CATHERINE: \"Soon, there will be nothing left between us and the Ashburgh title.\" [Cathedral Explodes]",
+      "cliffhanger": "ROYAL GUARD: \"Because we know who he is.\" [Alexander revealed as Duke]",
+      "why_it_works": "Peak spectacle ad: Villain wedding shattered by explosion (Ep 41) into rightful Duke's triumphant unmasking (Ep 42).",
+      "scores": {
+        "dramatic": 28.7,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 7.5,
+        "overall_rank_score": 56.2
+      },
+      "quality_issues": [
+        "Two-shot montage \u2014 requires visual title card or smash cut between segments"
+      ],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 2,
+          "start": "00:00.00",
+          "end": "00:25.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "THE FORMER GROOM: \"I cannot marry you, Juliana.\"",
+      "cliffhanger": "THE FORMER GROOM: \"Promises change when a better choice appears.\"",
+      "why_it_works": "Strong hook (Contains hook signals: marry, tears, lie, gasp); Cliffhanger (cliffhanger signals: no); High emotional intensity",
+      "scores": {
+        "dramatic": 27.6,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 55.6
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 33,
+          "start": "01:00.00",
+          "end": "01:25.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "LORD: \"Your brother is still a pauper.\"",
+      "cliffhanger": "LORD: \"She drew something around the bed, did she not?\"",
+      "why_it_works": "Strong hook (Contains hook signals: truth, tears, gasp); Cliffhanger (cliffhanger signals: please, no); High emotional intensity",
+      "scores": {
+        "dramatic": 27.6,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 55.6
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 11,
+          "start": "00:10.00",
+          "end": "00:35.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "GERALD: \"I came for something that belongs to me.\"",
+      "cliffhanger": "ALEXANDER: \"Choose your next words carefully.\"",
+      "why_it_works": "Strong hook (Contains hook signals: beg); Cliffhanger (cliffhanger signals: choose, no); Multi-character confrontation (3 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 27.0,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 55.0
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 42,
+          "start": "00:15.00",
+          "end": "00:40.00",
+          "duration_seconds": 25.0
+        }
+      ],
+      "total_duration_seconds": 25.0,
+      "hook": "JULIANA: \"Alexander...\"",
+      "cliffhanger": "ALEXANDER: \"And yet, here I stand. That is the lie you built your life upon.\"",
+      "why_it_works": "Strong hook (Contains hook signals: lie, arrest, imposter); Cliffhanger (cliffhanger signals: no, why); Multi-character confrontation (5 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 31.2,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 3.5,
+        "overall_rank_score": 54.7
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 29,
+          "start": "00:40.00",
+          "end": "01:10.00",
+          "duration_seconds": 30.0
+        }
+      ],
+      "total_duration_seconds": 30.0,
+      "hook": "JULIANA: \"You know that is a lie!\"",
+      "cliffhanger": "CATHERINE: \"You should have stayed forgotten.\"",
+      "why_it_works": "Strong hook (Contains hook signals: duchess, lie); Cliffhanger (cliffhanger signals: no); High emotional intensity",
+      "scores": {
+        "dramatic": 26.5,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 54.5
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    },
+    {
+      "segments": [
+        {
+          "episode": 16,
+          "start": "00:35.00",
+          "end": "00:55.00",
+          "duration_seconds": 20.0
+        }
+      ],
+      "total_duration_seconds": 20.0,
+      "hook": "ALEXANDER: \"Are you hurt?\"",
+      "cliffhanger": "JULIANA: \"Gerald...\"",
+      "why_it_works": "Strong hook (Contains hook signals: ring); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity",
+      "scores": {
+        "dramatic": 25.5,
+        "hook": 5.0,
+        "cliffhanger": 5.0,
+        "standalone": 8.0,
+        "overall_rank_score": 53.5
+      },
+      "quality_issues": [],
+      "llm_rank": null,
+      "llm_reasoning": ""
+    }
+  ]
+}

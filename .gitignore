@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Input data (confidential)
+input_episodes/
+
+# OS
+.DS_Store
