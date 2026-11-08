@@ -36,77 +36,82 @@ dialogue is mundane exposition rather than a genuine scroll-stopping hook.
 
 ## Per-Promo Quality Audit
 
-**Rank #1** [Ep24] — ✅ High Confidence
+**Rank #1** [Ep41, Ep1, Ep3] — ⚠️ Review Edit
+  - Visual-only hook in first 3s (no spoken line) — relies on visual action
+  - Multi-segment cut: requires title card or smash cut between scenes
+
+**Rank #2** [Ep31, Ep2, Ep4] — ⚠️ Review Edit
+  - Visual-only hook in first 3s (no spoken line) — relies on visual action
+  - Multi-segment cut: requires title card or smash cut between scenes
+
+**Rank #3** [Ep28, Ep1, Ep42] — 🔍 Experimental
+  - Visual-only hook in first 3s (no spoken line) — relies on visual action
+  - Duration > 50s: requires fast-paced visual editing for TikTok retention
+  - High character count (9): may confuse viewer unfamiliar with lore
+  - Multi-segment cut: requires title card or smash cut between scenes
+
+**Rank #4** [Ep24] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #2** [Ep43] — ✅ High Confidence
+**Rank #5** [Ep43] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #3** [Ep28, Ep43] — 🔍 Experimental
+**Rank #6** [Ep28, Ep43] — 🔍 Experimental
   - Visual-only hook in first 3s (no spoken line) — relies on visual action
   - Duration > 50s: requires fast-paced visual editing for TikTok retention
   - High character count (6): may confuse viewer unfamiliar with lore
   - Multi-segment cut: requires title card or smash cut between scenes
 
-**Rank #4** [Ep3] — ✅ High Confidence
+**Rank #7** [Ep3] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
 
-**Rank #5** [Ep15] — ⚠️ Review Edit
+**Rank #8** [Ep15] — ⚠️ Review Edit
   - Visual-only hook in first 3s (no spoken line) — relies on visual action
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #6** [Ep43] — ✅ High Confidence
+**Rank #9** [Ep43] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #7** [Ep33] — ✅ High Confidence
+**Rank #10** [Ep33] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #8** [Ep24] — ✅ High Confidence
+**Rank #11** [Ep24] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
 
-**Rank #9** [Ep42] — ✅ High Confidence
+**Rank #12** [Ep42] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #10** [Ep1, Ep3] — ✅ High Confidence
+**Rank #13** [Ep1, Ep3] — ✅ High Confidence
   - Multi-segment cut: requires title card or smash cut between scenes
 
-**Rank #11** [Ep14] — ✅ High Confidence
+**Rank #14** [Ep14] — ✅ High Confidence
   - Visual-only hook in first 3s (no spoken line) — relies on visual action
 
-**Rank #12** [Ep3] — ✅ High Confidence
+**Rank #15** [Ep3] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
 
-**Rank #13** [Ep15] — ✅ High Confidence
+**Rank #16** [Ep15] — ✅ High Confidence
   - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
-**Rank #14** [Ep41, Ep42] — 🔍 Experimental
+**Rank #17** [Ep41, Ep42] — 🔍 Experimental
   - Visual-only hook in first 3s (no spoken line) — relies on visual action
   - Duration > 50s: requires fast-paced visual editing for TikTok retention
   - High character count (6): may confuse viewer unfamiliar with lore
   - Multi-segment cut: requires title card or smash cut between scenes
 
-**Rank #15** [Ep2] — ✅ High Confidence
+**Rank #18** [Ep2] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
 
-**Rank #16** [Ep33] — ✅ High Confidence
+**Rank #19** [Ep33] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
 
-**Rank #17** [Ep11] — ✅ High Confidence
+**Rank #20** [Ep11] — ✅ High Confidence
   - Verified clean hook-to-cliffhanger progression
-
-**Rank #18** [Ep42] — ✅ High Confidence
-  - High character count (5): may confuse viewer unfamiliar with lore
-
-**Rank #19** [Ep29] — ✅ High Confidence
-  - Verified clean hook-to-cliffhanger progression
-
-**Rank #20** [Ep16] — ✅ High Confidence
-  - Short clip (< 22s): ensures high completion rate, but minimal character setup
 
 ## Production Statistics
 
 - Total promos generated: 20
 - Distinct episodes featured: 14 / 50 (28%)
-- Average promo duration: 27.8s (Optimal for Reels & TikTok)
-- Multi-segment / Cross-episode promos: 3
+- Average promo duration: 31.8s (Optimal for Reels & TikTok)
+- Multi-segment / Cross-episode promos: 6
 - Ready-to-cut promos (<= 1 review note): 20

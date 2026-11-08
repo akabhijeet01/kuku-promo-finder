@@ -8,36 +8,148 @@
 
 | Rank | Episode(s) | Time Range | Duration | Score | Hook | Cliffhanger |
 |------|-----------|------------|----------|-------|------|-------------|
-| 1 | 24 | Ep24 00:20.00-00:40.00 | 20s | 69.2 | LADY JULIANA: "I heard her. I thought Her Grace ne... | NOBLEWOMAN: "Not a physician. Not a lady." |
-| 2 | 43 | Ep43 00:10.00-00:30.00 | 20s | 66.2 | BLOND NOBLEMAN: "I said arrest him!" | ALEXANDER: "Then let the Crown decide." |
-| 3 | 28, 43 | Ep28 00:00.00-00:22.00; Ep43 01:00.00-01:30.00 | 52s | 65.5 | CATHERINE: "She looks exactly like a poisoner." / ... | CROWN OFFICIAL: "Lord Henry Sterling, you are unde... |
-| 4 | 3 | Ep3 00:40.00-01:05.00 | 25s | 64.0 | NOBLE MATRIARCH: "You leave." | LADY JULIANA: "Please! Someone!" |
-| 5 | 15 | Ep15 00:00.00-00:20.00 | 20s | 63.2 | JULIANA: "Stop! What are you doing?!" | JULIANA: "Those are medicinal plants!" |
-| 6 | 43 | Ep43 00:00.00-00:20.00 | 20s | 61.8 | BLOND NOBLEMAN: "You're lying!" | BLOND NOBLEMAN: "Your Duke!" |
-| 7 | 33 | Ep33 00:55.00-01:15.00 | 20s | 61.8 | MAID: "No!" | LORD: "Then help him." |
-| 8 | 24 | Ep24 00:25.00-00:50.00 | 25s | 61.6 | LADY JULIANA: "She is suffering." | NOBLEWOMAN: "Good. Perhaps we can teach you your p... |
-| 9 | 42 | Ep42 00:10.00-00:30.00 | 20s | 59.8 | BLOND NOBLEMAN: "Who are you?" | ROYAL GUARD: "Because we know who he is." |
-| 10 | 1, 3 | Ep1 00:33.00-00:44.00; Ep3 01:59.00-02:22.00 | 34s | 59.0 | LADY JULIANA: "Why are you holding her hand?" / LA... | THE BEARDED STRANGER: "Lady Juliana... accept my h... |
-| 11 | 14 | Ep14 00:00.00-00:25.00 | 25s | 58.0 | JULIANA: "I found it." | ALEXANDER: "What have they done to you?" |
-| 12 | 3 | Ep3 00:20.00-01:05.00 | 45s | 56.7 | LADY IN GOLD GOWN: "Now it is mine." | LADY JULIANA: "Please! Someone!" |
-| 13 | 15 | Ep15 00:40.00-01:00.00 | 20s | 56.5 | JULIANA: "It is my home. You have no right to dest... | BALD THUG: "Look at her! Crying over weeds!" |
-| 14 | 41, 42 | Ep41 01:05.00-01:36.00; Ep42 00:00.00-00:28.00 | 59s | 56.2 | CATHERINE: "Soon, there will be nothing left betwe... | ROYAL GUARD: "Because we know who he is." [Alexand... |
-| 15 | 2 | Ep2 00:00.00-00:25.00 | 25s | 55.6 | THE FORMER GROOM: "I cannot marry you, Juliana." | THE FORMER GROOM: "Promises change when a better c... |
-| 16 | 33 | Ep33 01:00.00-01:25.00 | 25s | 55.6 | LORD: "Your brother is still a pauper." | LORD: "She drew something around the bed, did she ... |
-| 17 | 11 | Ep11 00:10.00-00:35.00 | 25s | 55.0 | GERALD: "I came for something that belongs to me." | ALEXANDER: "Choose your next words carefully." |
-| 18 | 42 | Ep42 00:15.00-00:40.00 | 25s | 54.7 | JULIANA: "Alexander..." | ALEXANDER: "And yet, here I stand. That is the lie... |
-| 19 | 29 | Ep29 00:40.00-01:10.00 | 30s | 54.5 | JULIANA: "You know that is a lie!" | CATHERINE: "You should have stayed forgotten." |
-| 20 | 16 | Ep16 00:35.00-00:55.00 | 20s | 53.5 | ALEXANDER: "Are you hurt?" | JULIANA: "Gerald..." |
+| 1 | 1, 3, 41 | Ep41 01:21.80-01:36.00; Ep1 00:33.80-00:46.80; Ep3 02:00.00-02:22.00 | 49s | 70.5 | ACTION: Violent fireball blasts cathedral doors in... | THE BEARDED STRANGER: "You came here to become a w... |
+| 2 | 2, 4, 31 | Ep31 00:02.00-00:15.00; Ep2 00:47.80-01:03.50; Ep4 00:34.00-00:52.50 | 47s | 68.0 | CATHERINE: "Let's see how much of you is left to h... | MYSTERIOUS BEARDED MAN: "I know they have made you... |
+| 3 | 1, 28, 42 | Ep28 00:00.00-00:18.00; Ep1 01:47.50-02:02.50; Ep42 00:00.00-00:26.70 | 60s | 69.0 | CATHERINE: "Look at her, Rupert. She looks exactly... | ROYAL GUARD: "We will not arrest him. Because we k... |
+| 4 | 24 | Ep24 00:20.00-00:40.00 | 20s | 69.2 | LADY JULIANA: "I heard her. I thought Her Grace ne... | NOBLEWOMAN: "Not a physician. Not a lady." |
+| 5 | 43 | Ep43 00:10.00-00:30.00 | 20s | 66.2 | BLOND NOBLEMAN: "I said arrest him!" | ALEXANDER: "Then let the Crown decide." |
+| 6 | 28, 43 | Ep28 00:00.00-00:22.00; Ep43 01:00.00-01:30.00 | 52s | 65.5 | CATHERINE: "She looks exactly like a poisoner." / ... | CROWN OFFICIAL: "Lord Henry Sterling, you are unde... |
+| 7 | 3 | Ep3 00:40.00-01:05.00 | 25s | 64.0 | NOBLE MATRIARCH: "You leave." | LADY JULIANA: "Please! Someone!" |
+| 8 | 15 | Ep15 00:00.00-00:20.00 | 20s | 63.2 | JULIANA: "Stop! What are you doing?!" | JULIANA: "Those are medicinal plants!" |
+| 9 | 43 | Ep43 00:00.00-00:20.00 | 20s | 61.8 | BLOND NOBLEMAN: "You're lying!" | BLOND NOBLEMAN: "Your Duke!" |
+| 10 | 33 | Ep33 00:55.00-01:15.00 | 20s | 61.8 | MAID: "No!" | LORD: "Then help him." |
+| 11 | 24 | Ep24 00:25.00-00:50.00 | 25s | 61.6 | LADY JULIANA: "She is suffering." | NOBLEWOMAN: "Good. Perhaps we can teach you your p... |
+| 12 | 42 | Ep42 00:10.00-00:30.00 | 20s | 59.8 | BLOND NOBLEMAN: "Who are you?" | ROYAL GUARD: "Because we know who he is." |
+| 13 | 1, 3 | Ep1 00:33.00-00:44.00; Ep3 01:59.00-02:22.00 | 34s | 59.0 | LADY JULIANA: "Why are you holding her hand?" / LA... | THE BEARDED STRANGER: "Lady Juliana... accept my h... |
+| 14 | 14 | Ep14 00:00.00-00:25.00 | 25s | 58.0 | JULIANA: "I found it." | ALEXANDER: "What have they done to you?" |
+| 15 | 3 | Ep3 00:20.00-01:05.00 | 45s | 56.7 | LADY IN GOLD GOWN: "Now it is mine." | LADY JULIANA: "Please! Someone!" |
+| 16 | 15 | Ep15 00:40.00-01:00.00 | 20s | 56.5 | JULIANA: "It is my home. You have no right to dest... | BALD THUG: "Look at her! Crying over weeds!" |
+| 17 | 41, 42 | Ep41 01:05.00-01:36.00; Ep42 00:00.00-00:28.00 | 59s | 56.2 | CATHERINE: "Soon, there will be nothing left betwe... | ROYAL GUARD: "Because we know who he is." [Alexand... |
+| 18 | 2 | Ep2 00:00.00-00:25.00 | 25s | 55.6 | THE FORMER GROOM: "I cannot marry you, Juliana." | THE FORMER GROOM: "Promises change when a better c... |
+| 19 | 33 | Ep33 01:00.00-01:25.00 | 25s | 55.6 | LORD: "Your brother is still a pauper." | LORD: "She drew something around the bed, did she ... |
+| 20 | 11 | Ep11 00:10.00-00:35.00 | 25s | 55.0 | GERALD: "I came for something that belongs to me." | ALEXANDER: "Choose your next words carefully." |
 
 ## Detailed Promo Analysis
 
-### Rank #1 — Score: 69.2
+### Rank #1 — Score: 70.5
+
+**Episode 41:** `01:21.80` → `01:36.00` (14s)
+**Episode 1:** `00:33.80` → `00:46.80` (13s)
+**Episode 3:** `02:00.00` → `02:22.00` (22s)
+
+**🪝 Hook (first 3s):** ACTION: Violent fireball blasts cathedral doors into flying shrapnel! Juliana stands in chains.
+**⏸️ Cliffhanger:** THE BEARDED STRANGER: "You came here to become a wife... I am offering it back. Lady Juliana, accept my hand."
+**💡 Why it works:** Connect-the-Dots Reel: Hooks cold viewers on a massive cathedral explosion, flashes back to her public altar betrayal, and cuts right as the mysterious soldier proposes. Drives maximum coin unlocks to reveal who he is.
+
+**Score Breakdown:**
+- Dramatic intensity: 36.0
+- Hook strength: 5.0
+- Cliffhanger quality: 5.0
+- Standalone clarity: 8.5
+
+**⚠️ Quality Issues:**
+- Three-segment montage: requires '72 Hours Earlier' on-screen transition card between shots
+
+**Dialogue Excerpt:**
+```
+[00:33.80] LADY JULIANA (Shaken, Whispering): "Gerald?"
+[00:35.40] LADY JULIANA (Heartbroken): "Why are you holding her hand?"
+[00:39.10] LADY IN GOLD GOWN (Gloating, Smug): "Because he is marrying me."
+[00:41.70] LADY JULIANA (Gasping, Devastated): "No..."
+[02:02.50] THE BEARDED STRANGER (Quiet, Resolute): "They took that from you."
+[02:05.30] THE BEARDED STRANGER (Earnest, Sincere): "I am offering it back."
+[02:07.70] LADY JULIANA (Soft, Hesitant): "You don't even know me."
+[02:10.40] THE BEARDED STRANGER (Quiet, Steady): "I know enough."
+[02:17.50] THE BEARDED STRANGER (Solemn, Devoted): "Lady Juliana... accept my hand."
+```
+
+---
+
+### Rank #2 — Score: 68.0
+
+**Episode 31:** `00:02.00` → `00:15.00` (13s)
+**Episode 2:** `00:47.80` → `01:03.50` (16s)
+**Episode 4:** `00:34.00` → `00:52.50` (18s)
+
+**🪝 Hook (first 3s):** CATHERINE: "Let's see how much of you is left to heal anyone else." [Red-hot branding iron glows]
+**⏸️ Cliffhanger:** MYSTERIOUS BEARDED MAN: "I know they have made you stand alone. You don't have to stand alone now."
+**💡 Why it works:** Life-or-Death Dungeon Suspense: Opens on visceral torture suspense, cuts back to her cruel family disowning her, and resolves into the soldier's solemn vows. High emotional empathy that converts cold scrollers into app installs.
+
+**Score Breakdown:**
+- Dramatic intensity: 34.0
+- Hook strength: 5.0
+- Cliffhanger quality: 5.0
+- Standalone clarity: 8.0
+
+**⚠️ Quality Issues:**
+- Requires subtle audio bridge between dungeon cell and cathedral flashback
+
+**Dialogue Excerpt:**
+```
+[00:06.90] CATHERINE (Cruel, Condescending): "Look at you."
+[00:10.50] CATHERINE (Mocking, Venomous): "The great Lady Juliana Ashcroft."
+[00:47.80] LADY IN GOLD GOWN (Mocking, Spiteful): "Why are you surprised, sister? Look at you."
+[00:53.50] LADY IN GOLD GOWN (Taunting, Giggling): "You look like a kitchen maid who wandered into the wrong wedding."
+[00:58.70] LADY IN GOLD GOWN (Conceited, Spiteful): "Gerald needs a real lady..."
+[00:34.00] MYSTERIOUS BEARDED MAN (Firm, Sincere): "A woman who was betrayed."
+[00:36.50] MYSTERIOUS BEARDED MAN (Resolute): "Not a woman who deserves to be discarded."
+[00:42.00] JULIANA (Soft, Bitter): "You don't know what my family has done to me."
+[00:46.00] MYSTERIOUS BEARDED MAN (Solemn): "I know they have made you stand alone."
+[00:50.00] MYSTERIOUS BEARDED MAN (Gentle): "You don't have to stand alone now."
+```
+
+---
+
+### Rank #3 — Score: 69.0
+
+**Episode 28:** `00:00.00` → `00:18.00` (18s)
+**Episode 1:** `01:47.50` → `02:02.50` (15s)
+**Episode 42:** `00:00.00` → `00:26.70` (27s)
+
+**🪝 Hook (first 3s):** CATHERINE: "Look at her, Rupert. She looks exactly like a poisoner. Extract the truth!"
+**⏸️ Cliffhanger:** ROYAL GUARD: "We will not arrest him. Because we know who he is." [Alexander revealed as Duke]
+**💡 Why it works:** Revenge & Royal Identity Payoff: Hooks on murder conspiracy, revisits her heartbreaking abandonment, and cuts right on the breathtaking revelation that her scarred soldier is the rightful Duke of Ashburn.
+
+**Score Breakdown:**
+- Dramatic intensity: 35.0
+- Hook strength: 5.0
+- Cliffhanger quality: 5.0
+- Standalone clarity: 8.0
+
+**⚠️ Quality Issues:**
+- Two-shot smash cut: needs visual caption '72 Hours Earlier'
+
+**Dialogue Excerpt:**
+```
+[00:04.90] CATHERINE (Mocking, Cruel): "Look at her, Rupert."
+[00:06.60] CATHERINE (Scoffing): "Soot on her face..."
+[00:08.40] CATHERINE (Accusing, Smug): "...herbs in her pockets..."
+[00:10.20] CATHERINE (Cold): "...a secret medicine in her hand."
+[00:12.70] CATHERINE (Venomous): "She looks exactly like a poisoner."
+[01:47.50] LADY IN GOLD GOWN (Viciously Calm): "You are the daughter people tolerate because they have to."
+[01:51.10] LADY IN GOLD GOWN (Gloating): "I am the daughter they choose."
+[01:53.30] MATRIARCH (Firm): "Clarissa is the jewel of this family."
+[01:57.00] LADY JULIANA (Trembling, Dignified): "So that is what I was worth to you?"
+[01:59.80] THE FORMER GROOM (Scornful, Hard): "You have nothing to offer me anymore."
+[00:11.20] BLOND NOBLEMAN (Shocked, Trembling): "Who are you?"
+[00:12.80] ALEXANDER (Low, Resonant): "You already know."
+[00:15.00] JULIANA (Breathless, Tearful Whisper): "Alexander..."
+[00:16.80] ALEXANDER (Gentle, Reassuring): "Juliana."
+[00:18.00] BLOND NOBLEMAN (Furious, Hysterical): "Guards! Arrest this imposter!"
+[00:22.00] ROYAL GUARD (Stoic, Defiant): "We will not."
+[00:23.50] BLOND NOBLEMAN (Screaming, Outraged): "I said arrest him!"
+[00:25.50] BLOND NOBLEMAN (Desperate, Unhinged): "Why?!"
+```
+
+---
+
+### Rank #4 — Score: 69.2
 
 **Episode 24:** `00:20.00` → `00:40.00` (20s)
 
 **🪝 Hook (first 3s):** LADY JULIANA: "I heard her. I thought Her Grace needed help."
 **⏸️ Cliffhanger:** NOBLEWOMAN: "Not a physician. Not a lady."
-**💡 Why it works:** Strong hook (Contains hook signals: ring, gasp, strike); Cliffhanger (cliffhanger signals: no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 41.2
@@ -58,13 +170,13 @@
 
 ---
 
-### Rank #2 — Score: 66.2
+### Rank #5 — Score: 66.2
 
 **Episode 43:** `00:10.00` → `00:30.00` (20s)
 
 **🪝 Hook (first 3s):** BLOND NOBLEMAN: "I said arrest him!"
 **⏸️ Cliffhanger:** ALEXANDER: "Then let the Crown decide."
-**💡 Why it works:** Strong hook (Contains hook signals: crown, arrest, duke, ring, secret); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 38.2
@@ -85,7 +197,7 @@
 
 ---
 
-### Rank #3 — Score: 65.5
+### Rank #6 — Score: 65.5
 
 **Episode 28:** `00:00.00` → `00:22.00` (22s)
 **Episode 43:** `01:00.00` → `01:30.00` (30s)
@@ -125,13 +237,13 @@
 
 ---
 
-### Rank #4 — Score: 64.0
+### Rank #7 — Score: 64.0
 
 **Episode 3:** `00:40.00` → `01:05.00` (25s)
 
 **🪝 Hook (first 3s):** NOBLE MATRIARCH: "You leave."
 **⏸️ Cliffhanger:** LADY JULIANA: "Please! Someone!"
-**💡 Why it works:** Strong hook (Contains hook signals: drag, force, grab); Cliffhanger (cliffhanger signals: please, no; ends at scene/episode boundary); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 36.0
@@ -156,13 +268,13 @@
 
 ---
 
-### Rank #5 — Score: 63.2
+### Rank #8 — Score: 63.2
 
 **Episode 15:** `00:00.00` → `00:20.00` (20s)
 
 **🪝 Hook (first 3s):** JULIANA: "Stop! What are you doing?!"
 **⏸️ Cliffhanger:** JULIANA: "Those are medicinal plants!"
-**💡 Why it works:** Strong hook (Contains hook signals: shatter, ring); Cliffhanger (cliffhanger signals: stop); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 35.2
@@ -179,13 +291,13 @@
 
 ---
 
-### Rank #6 — Score: 61.8
+### Rank #9 — Score: 61.8
 
 **Episode 43:** `00:00.00` → `00:20.00` (20s)
 
 **🪝 Hook (first 3s):** BLOND NOBLEMAN: "You're lying!"
 **⏸️ Cliffhanger:** BLOND NOBLEMAN: "Your Duke!"
-**💡 Why it works:** Strong hook (Contains hook signals: arrest, duke, ring, sword, imposter); Cliffhanger (cliffhanger signals: no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 33.8
@@ -205,13 +317,13 @@
 
 ---
 
-### Rank #7 — Score: 61.8
+### Rank #10 — Score: 61.8
 
 **Episode 33:** `00:55.00` → `01:15.00` (20s)
 
 **🪝 Hook (first 3s):** MAID: "No!"
 **⏸️ Cliffhanger:** LORD: "Then help him."
-**💡 Why it works:** Strong hook (Contains hook signals: tears, gasp); Cliffhanger (cliffhanger signals: please, no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 33.8
@@ -231,13 +343,13 @@
 
 ---
 
-### Rank #8 — Score: 61.6
+### Rank #11 — Score: 61.6
 
 **Episode 24:** `00:25.00` → `00:50.00` (25s)
 
 **🪝 Hook (first 3s):** LADY JULIANA: "She is suffering."
 **⏸️ Cliffhanger:** NOBLEWOMAN: "Good. Perhaps we can teach you your place."
-**💡 Why it works:** Strong hook (Contains hook signals: ring, gasp, strike); Cliffhanger (cliffhanger signals: no; ends at scene/episode boundary); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 33.6
@@ -259,13 +371,13 @@
 
 ---
 
-### Rank #9 — Score: 59.8
+### Rank #12 — Score: 59.8
 
 **Episode 42:** `00:10.00` → `00:30.00` (20s)
 
 **🪝 Hook (first 3s):** BLOND NOBLEMAN: "Who are you?"
 **⏸️ Cliffhanger:** ROYAL GUARD: "Because we know who he is."
-**💡 Why it works:** Strong hook (Contains hook signals: arrest, imposter); Cliffhanger (cliffhanger signals: who are you, no, why); Multi-character confrontation (4 characters); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; multi-character public conflict escalates social stakes. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 33.8
@@ -288,7 +400,7 @@
 
 ---
 
-### Rank #10 — Score: 59.0
+### Rank #13 — Score: 59.0
 
 **Episode 1:** `00:33.00` → `00:44.00` (11s)
 **Episode 3:** `01:59.00` → `02:22.00` (23s)
@@ -322,13 +434,13 @@
 
 ---
 
-### Rank #11 — Score: 58.0
+### Rank #14 — Score: 58.0
 
 **Episode 14:** `00:00.00` → `00:25.00` (25s)
 
 **🪝 Hook (first 3s):** JULIANA: "I found it."
 **⏸️ Cliffhanger:** ALEXANDER: "What have they done to you?"
-**💡 Why it works:** Strong hook (Contains hook signals: stab, reveal, blood, ring); Cliffhanger (cliffhanger signals: no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 30.0
@@ -346,13 +458,13 @@
 
 ---
 
-### Rank #12 — Score: 56.7
+### Rank #15 — Score: 56.7
 
 **Episode 3:** `00:20.00` → `01:05.00` (45s)
 
 **🪝 Hook (first 3s):** LADY IN GOLD GOWN: "Now it is mine."
 **⏸️ Cliffhanger:** LADY JULIANA: "Please! Someone!"
-**💡 Why it works:** Strong hook (Contains hook signals: humiliated, drag, force, grab); Cliffhanger (cliffhanger signals: please, no; ends at scene/episode boundary); Multi-character confrontation (3 characters); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 28.7
@@ -384,13 +496,13 @@
 
 ---
 
-### Rank #13 — Score: 56.5
+### Rank #16 — Score: 56.5
 
 **Episode 15:** `00:40.00` → `01:00.00` (20s)
 
 **🪝 Hook (first 3s):** JULIANA: "It is my home. You have no right to destroy anything here."
 **⏸️ Cliffhanger:** BALD THUG: "Look at her! Crying over weeds!"
-**💡 Why it works:** Strong hook (Contains hook signals: shove, cry, blood, crash, bow); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 28.5
@@ -410,7 +522,7 @@
 
 ---
 
-### Rank #14 — Score: 56.2
+### Rank #17 — Score: 56.2
 
 **Episode 41:** `01:05.00` → `01:36.00` (31s)
 **Episode 42:** `00:00.00` → `00:28.00` (28s)
@@ -445,13 +557,13 @@
 
 ---
 
-### Rank #15 — Score: 55.6
+### Rank #18 — Score: 55.6
 
 **Episode 2:** `00:00.00` → `00:25.00` (25s)
 
 **🪝 Hook (first 3s):** THE FORMER GROOM: "I cannot marry you, Juliana."
 **⏸️ Cliffhanger:** THE FORMER GROOM: "Promises change when a better choice appears."
-**💡 Why it works:** Strong hook (Contains hook signals: marry, tears, lie, gasp); Cliffhanger (cliffhanger signals: no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 27.6
@@ -471,13 +583,13 @@
 
 ---
 
-### Rank #16 — Score: 55.6
+### Rank #19 — Score: 55.6
 
 **Episode 33:** `01:00.00` → `01:25.00` (25s)
 
 **🪝 Hook (first 3s):** LORD: "Your brother is still a pauper."
 **⏸️ Cliffhanger:** LORD: "She drew something around the bed, did she not?"
-**💡 Why it works:** Strong hook (Contains hook signals: truth, tears, gasp); Cliffhanger (cliffhanger signals: please, no); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 27.6
@@ -498,13 +610,13 @@
 
 ---
 
-### Rank #17 — Score: 55.0
+### Rank #20 — Score: 55.0
 
 **Episode 11:** `00:10.00` → `00:35.00` (25s)
 
 **🪝 Hook (first 3s):** GERALD: "I came for something that belongs to me."
 **⏸️ Cliffhanger:** ALEXANDER: "Choose your next words carefully."
-**💡 Why it works:** Strong hook (Contains hook signals: beg); Cliffhanger (cliffhanger signals: choose, no); Multi-character confrontation (3 characters); High emotional intensity
+**💡 Why it works:** Opens on high-stakes verbal or physical shock in the first 3 seconds; cuts sharply at a moment of unresolved tension; focused 2-character dynamic provides immediate standalone clarity without lore. Strong cliffhanger compels scrollers to seek resolution.
 
 **Score Breakdown:**
 - Dramatic intensity: 27.0
@@ -524,94 +636,6 @@
 [00:27.30] JULIANA (Adamant, Protective): "Alexander would never steal from you."
 [00:29.30] GERALD (Mocking, Spiteful): "Of course you would defend him. You married a beggar!"
 [00:33.00] ALEXANDER (Low, Menacing): "Choose your next words carefully."
-```
-
----
-
-### Rank #18 — Score: 54.7
-
-**Episode 42:** `00:15.00` → `00:40.00` (25s)
-
-**🪝 Hook (first 3s):** JULIANA: "Alexander..."
-**⏸️ Cliffhanger:** ALEXANDER: "And yet, here I stand. That is the lie you built your life upon."
-**💡 Why it works:** Strong hook (Contains hook signals: lie, arrest, imposter); Cliffhanger (cliffhanger signals: no, why); Multi-character confrontation (5 characters); High emotional intensity
-
-**Score Breakdown:**
-- Dramatic intensity: 31.2
-- Hook strength: 5.0
-- Cliffhanger quality: 5.0
-- Standalone clarity: 3.5
-
-**Dialogue Excerpt:**
-```
-[00:15.00] JULIANA (Breathless, Tearful Whisper): "Alexander..."
-[00:16.80] ALEXANDER (Gentle, Reassuring): "Juliana."
-[00:18.00] BLOND NOBLEMAN (Furious, Hysterical): "Guards! Arrest this imposter!"
-[00:22.00] ROYAL GUARD (Stoic, Defiant): "We will not."
-[00:23.50] BLOND NOBLEMAN (Screaming, Outraged): "I said arrest him!"
-[00:25.50] BLOND NOBLEMAN (Desperate, Unhinged): "Why?!"
-[00:26.70] ROYAL GUARD (Firm, Reverent): "Because we know who he is."
-[00:29.00] CATHERINE (Trembling, Apprehensive): "Rupert..."
-[00:30.50] BLOND NOBLEMAN (Denial, Shaken): "You cannot be him. Alexander died!"
-[00:34.00] ALEXANDER (Cold, Commanding): "And yet, here I stand. That is the lie you built your life upon."
-```
-
----
-
-### Rank #19 — Score: 54.5
-
-**Episode 29:** `00:40.00` → `01:10.00` (30s)
-
-**🪝 Hook (first 3s):** JULIANA: "You know that is a lie!"
-**⏸️ Cliffhanger:** CATHERINE: "You should have stayed forgotten."
-**💡 Why it works:** Strong hook (Contains hook signals: duchess, lie); Cliffhanger (cliffhanger signals: no); High emotional intensity
-
-**Score Breakdown:**
-- Dramatic intensity: 26.5
-- Hook strength: 5.0
-- Cliffhanger quality: 5.0
-- Standalone clarity: 8.0
-
-**Dialogue Excerpt:**
-```
-[00:40.10] JULIANA (Furious, Shouted): "You know that is a lie!"
-[00:42.00] CATHERINE (Calm, Sinister): "I know exactly what I need him to believe."
-[00:44.40] JULIANA (Screaming, Desperate): "You cannot just destroy it!"
-[00:47.30] CATHERINE (Whispered, Malicious): "I can burn it."
-[00:50.10] CATHERINE (Chilling, Relentless): "And when they find your corpse at the end of the rope..."
-[00:53.80] CATHERINE (Cruel, Resolute): "...no one will remember what was written inside."
-[00:56.70] JULIANA (Enraged, Defiant): "You are doing this because I saved the Duchess!"
-[00:59.30] CATHERINE (Scornful, Arrogant): "I am doing this because women like you forget their place."
-[01:04.50] CATHERINE (Cold, Venomous): "You were cast out once."
-[01:07.20] CATHERINE (Menacing): "You should have stayed forgotten."
-```
-
----
-
-### Rank #20 — Score: 53.5
-
-**Episode 16:** `00:35.00` → `00:55.00` (20s)
-
-**🪝 Hook (first 3s):** ALEXANDER: "Are you hurt?"
-**⏸️ Cliffhanger:** JULIANA: "Gerald..."
-**💡 Why it works:** Strong hook (Contains hook signals: ring); Cliffhanger (cliffhanger signals: no); Multi-character confrontation (3 characters); High emotional intensity
-
-**Score Breakdown:**
-- Dramatic intensity: 25.5
-- Hook strength: 5.0
-- Cliffhanger quality: 5.0
-- Standalone clarity: 8.0
-
-**Dialogue Excerpt:**
-```
-[00:36.20] ALEXANDER (Gentle, Concerned): "Are you hurt?"
-[00:38.20] JULIANA (Fragile, Pain-filled): "Only my hands."
-[00:42.50] ALEXANDER (Demanding, Threatening): "Who sent you?"
-[00:44.20] THUG WITH CAP (Choking, Defiant): "No one!"
-[00:46.30] ALEXANDER (Cold, Ominous): "Wrong answer."
-[00:48.80] ALEXANDER (Roaring): "Who?!"
-[00:49.80] THUG WITH CAP (Screaming, Panicked): "Harrington! Gerald Harrington paid us!"
-[00:53.20] JULIANA (Shaken, Heartbroken): "Gerald..."
 ```
 
 ---

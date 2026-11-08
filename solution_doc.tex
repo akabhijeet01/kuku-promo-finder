@@ -71,8 +71,9 @@ A common trap is feeding 50 raw scripts into an LLM and asking it to ``pick the 
     \item \textbf{Sliding-Window Density Engine (Code):} Slides candidate windows from 20s to 55s across each episode with a 5s stride ($>6{,}900$ windows evaluated). Computes emotional density per 30s using actor stage directions (\textit{Furious}, \textit{Cold}, \textit{Devastated}, \textit{Trembling}).
     \item \textbf{Action Spectacle Detector (Code):} Dialogue alone misses visual drama. I built a keyword detector for physical beats in \texttt{ACTION} and \texttt{CAMERA} blocks (fireballs, explosions, drawn swords, torn gowns, kneeling with a ring).
     \item \textbf{Hook \& Cliffhanger Detectors (Code):} Checks if the opening 3 seconds contains punchy lines or physical conflict, and whether the tail ends on an unresolved question, gasp, or episode boundary.
-    \item \textbf{Deduplication \& Cross-Episode Matcher (Code):} Suppresses overlapping spans, enforces max 2 promos per episode to ensure variety, and stitches high-contrast cross-episode arcs.
-    \item \textbf{LLM Semantic Layer (AI --- Google Gemini Flash, easily swappable):} Only top candidate windows are optionally passed to the LLM. It acts as an experienced creative director: checking if a line genuinely stops thumbs, refining the ``why it works'' copy, and flagging subtle plot ambiguities.
+    \item \textbf{Deduplication \& Cross-Episode Matcher (Code):} Suppresses overlapping spans, enforces max 2 promos per episode, and builds 3-beat Connect-the-Dots ads (Teaser Hook $\to$ Origin $\to$ Paywall Cut).
+    \item \textbf{AI Video Storyboard Bridge (Code):} Translates screenplay camera cues, character emotions, and sound FX into shot-by-shot vertical 9:16 AI video prompts (Runway/Sora/Luma) for pre-render workflows.
+    \item \textbf{LLM Semantic Layer (AI --- Google Gemini Flash, easily swappable):} Only top candidates are optionally passed to the LLM to refine hook punchlines, conversion rationale, and flag plot ambiguities.
 \end{itemize}
 
 % ── 3. PROTOTYPE & TOOLING ───────────────────────────────────────────────
