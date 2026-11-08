@@ -8,18 +8,24 @@
           "episode": 41,
           "start": "01:21.80",
           "end": "01:36.00",
+          "start_seconds": 81.8,
+          "end_seconds": 96.0,
           "duration_seconds": 14.2
         },
         {
           "episode": 1,
           "start": "00:33.80",
           "end": "00:46.80",
+          "start_seconds": 33.8,
+          "end_seconds": 46.8,
           "duration_seconds": 13.0
         },
         {
           "episode": 3,
           "start": "02:00.00",
           "end": "02:22.00",
+          "start_seconds": 120.0,
+          "end_seconds": 142.0,
           "duration_seconds": 22.0
         }
       ],
@@ -35,7 +41,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.5,
-        "overall_rank_score": 70.5
+        "overall_rank_score": 70.5,
+        "overall": 70.5
       },
       "quality_issues": [
         "Three-segment montage: requires '72 Hours Earlier' on-screen transition card between shots"
@@ -191,18 +198,24 @@
           "episode": 31,
           "start": "00:02.00",
           "end": "00:15.00",
+          "start_seconds": 2.0,
+          "end_seconds": 15.0,
           "duration_seconds": 13.0
         },
         {
           "episode": 2,
           "start": "00:47.80",
           "end": "01:03.50",
+          "start_seconds": 47.8,
+          "end_seconds": 63.5,
           "duration_seconds": 15.7
         },
         {
           "episode": 4,
           "start": "00:34.00",
           "end": "00:52.50",
+          "start_seconds": 34.0,
+          "end_seconds": 52.5,
           "duration_seconds": 18.5
         }
       ],
@@ -218,7 +231,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 68.0
+        "overall_rank_score": 68.0,
+        "overall": 68.0
       },
       "quality_issues": [
         "Requires subtle audio bridge between dungeon cell and cathedral flashback"
@@ -374,18 +388,24 @@
           "episode": 28,
           "start": "00:00.00",
           "end": "00:18.00",
+          "start_seconds": 0.0,
+          "end_seconds": 18.0,
           "duration_seconds": 18.0
         },
         {
           "episode": 1,
           "start": "01:47.50",
           "end": "02:02.50",
+          "start_seconds": 107.5,
+          "end_seconds": 122.5,
           "duration_seconds": 15.0
         },
         {
           "episode": 42,
           "start": "00:00.00",
           "end": "00:26.70",
+          "start_seconds": 0.0,
+          "end_seconds": 26.7,
           "duration_seconds": 26.7
         }
       ],
@@ -401,7 +421,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 69.0
+        "overall_rank_score": 69.0,
+        "overall": 69.0
       },
       "quality_issues": [
         "Two-shot smash cut: needs visual caption '72 Hours Earlier'"
@@ -683,6 +704,8 @@
           "episode": 24,
           "start": "00:20.00",
           "end": "00:40.00",
+          "start_seconds": 20.0,
+          "end_seconds": 40.0,
           "duration_seconds": 20.0
         }
       ],
@@ -698,7 +721,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 69.2
+        "overall_rank_score": 69.2,
+        "overall": 69.2
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -810,6 +834,8 @@
           "episode": 43,
           "start": "00:10.00",
           "end": "00:30.00",
+          "start_seconds": 10.0,
+          "end_seconds": 30.0,
           "duration_seconds": 20.0
         }
       ],
@@ -825,7 +851,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 66.2
+        "overall_rank_score": 66.2,
+        "overall": 66.2
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -937,12 +964,16 @@
           "episode": 28,
           "start": "00:00.00",
           "end": "00:22.00",
+          "start_seconds": 0.0,
+          "end_seconds": 22.0,
           "duration_seconds": 22.0
         },
         {
           "episode": 43,
           "start": "01:00.00",
           "end": "01:30.00",
+          "start_seconds": 60.0,
+          "end_seconds": 90.0,
           "duration_seconds": 30.0
         }
       ],
@@ -958,7 +989,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 7.0,
-        "overall_rank_score": 65.5
+        "overall_rank_score": 65.5,
+        "overall": 65.5
       },
       "quality_issues": [
         "Two-shot montage \u2014 requires visual title card or smash cut between segments"
@@ -1198,6 +1230,8 @@
           "episode": 3,
           "start": "00:40.00",
           "end": "01:05.00",
+          "start_seconds": 40.0,
+          "end_seconds": 65.0,
           "duration_seconds": 25.0
         }
       ],
@@ -1213,7 +1247,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 64.0
+        "overall_rank_score": 64.0,
+        "overall": 64.0
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1381,6 +1416,8 @@
           "episode": 15,
           "start": "00:00.00",
           "end": "00:20.00",
+          "start_seconds": 0.0,
+          "end_seconds": 20.0,
           "duration_seconds": 20.0
         }
       ],
@@ -1396,7 +1433,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 63.2
+        "overall_rank_score": 63.2,
+        "overall": 63.2
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1452,6 +1490,8 @@
           "episode": 43,
           "start": "00:00.00",
           "end": "00:20.00",
+          "start_seconds": 0.0,
+          "end_seconds": 20.0,
           "duration_seconds": 20.0
         }
       ],
@@ -1467,7 +1507,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 61.8
+        "overall_rank_score": 61.8,
+        "overall": 61.8
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1565,6 +1606,8 @@
           "episode": 33,
           "start": "00:55.00",
           "end": "01:15.00",
+          "start_seconds": 55.0,
+          "end_seconds": 75.0,
           "duration_seconds": 20.0
         }
       ],
@@ -1580,7 +1623,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 61.8
+        "overall_rank_score": 61.8,
+        "overall": 61.8
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1678,6 +1722,8 @@
           "episode": 24,
           "start": "00:25.00",
           "end": "00:50.00",
+          "start_seconds": 25.0,
+          "end_seconds": 50.0,
           "duration_seconds": 25.0
         }
       ],
@@ -1693,7 +1739,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 61.6
+        "overall_rank_score": 61.6,
+        "overall": 61.6
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1819,6 +1866,8 @@
           "episode": 42,
           "start": "00:10.00",
           "end": "00:30.00",
+          "start_seconds": 10.0,
+          "end_seconds": 30.0,
           "duration_seconds": 20.0
         }
       ],
@@ -1834,7 +1883,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 6.0,
-        "overall_rank_score": 59.8
+        "overall_rank_score": 59.8,
+        "overall": 59.8
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -1988,12 +2038,16 @@
           "episode": 1,
           "start": "00:33.00",
           "end": "00:44.00",
+          "start_seconds": 33.0,
+          "end_seconds": 44.0,
           "duration_seconds": 11.0
         },
         {
           "episode": 3,
           "start": "01:59.00",
           "end": "02:22.00",
+          "start_seconds": 119.0,
+          "end_seconds": 142.0,
           "duration_seconds": 23.0
         }
       ],
@@ -2009,7 +2063,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 59.0
+        "overall_rank_score": 59.0,
+        "overall": 59.0
       },
       "quality_issues": [
         "Two-shot montage \u2014 requires visual title card or smash cut between segments"
@@ -2165,6 +2220,8 @@
           "episode": 14,
           "start": "00:00.00",
           "end": "00:25.00",
+          "start_seconds": 0.0,
+          "end_seconds": 25.0,
           "duration_seconds": 25.0
         }
       ],
@@ -2180,7 +2237,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 58.0
+        "overall_rank_score": 58.0,
+        "overall": 58.0
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -2250,6 +2308,8 @@
           "episode": 3,
           "start": "00:20.00",
           "end": "01:05.00",
+          "start_seconds": 20.0,
+          "end_seconds": 65.0,
           "duration_seconds": 45.0
         }
       ],
@@ -2265,7 +2325,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 56.7
+        "overall_rank_score": 56.7,
+        "overall": 56.7
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -2531,6 +2592,8 @@
           "episode": 15,
           "start": "00:40.00",
           "end": "01:00.00",
+          "start_seconds": 40.0,
+          "end_seconds": 60.0,
           "duration_seconds": 20.0
         }
       ],
@@ -2546,7 +2609,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 56.5
+        "overall_rank_score": 56.5,
+        "overall": 56.5
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -2644,12 +2708,16 @@
           "episode": 41,
           "start": "01:05.00",
           "end": "01:36.00",
+          "start_seconds": 65.0,
+          "end_seconds": 96.0,
           "duration_seconds": 31.0
         },
         {
           "episode": 42,
           "start": "00:00.00",
           "end": "00:28.00",
+          "start_seconds": 0.0,
+          "end_seconds": 28.0,
           "duration_seconds": 28.0
         }
       ],
@@ -2665,7 +2733,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 7.5,
-        "overall_rank_score": 56.2
+        "overall_rank_score": 56.2,
+        "overall": 56.2
       },
       "quality_issues": [
         "Two-shot montage \u2014 requires visual title card or smash cut between segments"
@@ -2849,6 +2918,8 @@
           "episode": 2,
           "start": "00:00.00",
           "end": "00:25.00",
+          "start_seconds": 0.0,
+          "end_seconds": 25.0,
           "duration_seconds": 25.0
         }
       ],
@@ -2864,7 +2935,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 55.6
+        "overall_rank_score": 55.6,
+        "overall": 55.6
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -2962,6 +3034,8 @@
           "episode": 33,
           "start": "01:00.00",
           "end": "01:25.00",
+          "start_seconds": 60.0,
+          "end_seconds": 85.0,
           "duration_seconds": 25.0
         }
       ],
@@ -2977,7 +3051,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 55.6
+        "overall_rank_score": 55.6,
+        "overall": 55.6
       },
       "quality_issues": [],
       "storyboard_beats": [
@@ -3089,6 +3164,8 @@
           "episode": 11,
           "start": "00:10.00",
           "end": "00:35.00",
+          "start_seconds": 10.0,
+          "end_seconds": 35.0,
           "duration_seconds": 25.0
         }
       ],
@@ -3104,7 +3181,8 @@
         "hook": 5.0,
         "cliffhanger": 5.0,
         "standalone": 8.0,
-        "overall_rank_score": 55.0
+        "overall_rank_score": 55.0,
+        "overall": 55.0
       },
       "quality_issues": [],
       "storyboard_beats": [
