@@ -85,6 +85,19 @@ class TestScreenplayParser(unittest.TestCase):
         finally:
             os.remove(f_path)
 
+    def test_parse_merged_screenplay(self):
+        merged_sample = SAMPLE_EPISODE_TEXT + "\n\n" + SAMPLE_EPISODE_TEXT.replace("Episode 99", "Episode 100")
+        with tempfile.NamedTemporaryFile("w", delete=False, suffix=".txt") as f:
+            f.write(merged_sample)
+            f_path = f.name
+        try:
+            episodes = load_all_episodes(f_path)
+            self.assertEqual(len(episodes), 2)
+            self.assertEqual(episodes[0].episode_number, 99)
+            self.assertEqual(episodes[1].episode_number, 100)
+        finally:
+            os.remove(f_path)
+
 
 class TestPromoFinder(unittest.TestCase):
 

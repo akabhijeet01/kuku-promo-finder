@@ -1022,7 +1022,7 @@ def save_results(promos: list[PromoCandidate], output_path: str):
 if __name__ == "__main__":
     import sys
 
-    input_dir = sys.argv[1] if len(sys.argv) > 1 else "input_episodes"
+    input_dir = sys.argv[1] if len(sys.argv) > 1 else ("merged.txt" if os.path.exists("merged.txt") else "input_episodes")
     api_key = os.environ.get("GEMINI_API_KEY", "")
 
     promos, episodes = run_promo_finder(input_dir, api_key=api_key if api_key else None)

@@ -220,7 +220,7 @@ def generate_quality_analysis(promos, episodes, output_path):
 
 
 if __name__ == "__main__":
-    input_dir = sys.argv[1] if len(sys.argv) > 1 else "input_episodes"
+    input_source = sys.argv[1] if len(sys.argv) > 1 else ("merged.txt" if os.path.exists("merged.txt") else "input_episodes")
     output_dir = "raw_outputs"
     os.makedirs(output_dir, exist_ok=True)
 
@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
     # Run pipeline
     promos, episodes = run_promo_finder(
-        input_dir,
+        input_source,
         api_key=api_key if api_key else None,
         top_n=20,
     )

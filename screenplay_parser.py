@@ -111,34 +111,39 @@ def format_timestamp(seconds: float) -> str:
     return f"{minutes:02d}:{secs:05.2f}"
 
 
-def parse_episode(filepath: str) -> Episode:
-    """Parse a single screenplay file into an Episode object."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        text = f.read()
-
+def parse_screenplay_text(text: str, filename: str = "") -> Episode:
+    """Parse the raw text of an episode screenplay into an Episode object."""
     # Extract header info
     ep_num_match = re.search(r"EPISODE NUMBER:\s*Episode\s*(\d+)", text)
     logline_match = re.search(r"EPISODE LOGLINE:\s*(.+?)(?:\n|$)", text)
     continuity_match = re.search(r"CONTINUITY NOTES:\s*(.+?)(?:\n|$)", text)
 
+    ep_num = int(ep_num_match.group(1)) if ep_num_match else 0
+    if not filename:
+        filename = f"episode-{ep_num:03d}.txt" if ep_num else "episode.txt"
+
     episode = Episode(
-        episode_number=int(ep_num_match.group(1)) if ep_num_match else 0,
+        episode_number=ep_num,
         logline=logline_match.group(1).strip() if logline_match else "",
         continuity_notes=continuity_match.group(1).strip() if continuity_match else "",
-        filename=os.path.basename(filepath)
+        filename=filename,
     )
 
     # Extract script body
     script_match = re.search(r"--- SCRIPT START ---(.+?)--- SCRIPT END ---", text, re.DOTALL)
     if not script_match:
-        return episode
-
-    script_body = script_match.group(1)
+        # Fallback if standard end delimiter is missing or formatted slightly differently
+        body_start = text.find("--- SCRIPT START ---")
+        if body_start != -1:
+            script_body = text[body_start + len("--- SCRIPT START ---"):]
+        else:
+            script_body = text
+    else:
+        script_body = script_match.group(1)
 
     # Split into scenes
     scene_splits = re.split(r"(SCENE\s+\d+)", script_body)
 
-    current_scene = None
     for i, part in enumerate(scene_splits):
         scene_header_match = re.match(r"SCENE\s+(\d+)", part.strip())
         if scene_header_match:
@@ -168,6 +173,33 @@ def parse_episode(filepath: str) -> Episode:
             episode.scenes.append(scene)
 
     return episode
+
+
+def parse_episode(filepath: str) -> Episode:
+    """Parse a single screenplay file into an Episode object."""
+    with open(filepath, "r", encoding="utf-8") as f:
+        text = f.read()
+    return parse_screenplay_text(text, filename=os.path.basename(filepath))
+
+
+def parse_merged_screenplay(file_path_or_text: str) -> list[Episode]:
+    """Parse a merged screenplay file or text string containing multiple episodes."""
+    if os.path.isfile(file_path_or_text):
+        with open(file_path_or_text, "r", encoding="utf-8") as f:
+            text = f.read()
+    else:
+        text = file_path_or_text
+
+    chunks = [c.strip() for c in re.split(r"(?=EPISODE NUMBER:\s*Episode\s*\d+)", text) if c.strip()]
+    episodes = []
+    for chunk in chunks:
+        if "EPISODE NUMBER:" in chunk:
+            ep = parse_screenplay_text(chunk)
+            if ep.episode_number > 0 or ep.scenes:
+                episodes.append(ep)
+
+    episodes.sort(key=lambda e: e.episode_number)
+    return episodes
 
 
 def _parse_scene_content(content: str, scene: Scene):
@@ -221,20 +253,56 @@ def _parse_scene_content(content: str, scene: Scene):
         ))
 
 
-def load_all_episodes(directory: str) -> list[Episode]:
-    """Load and parse all episode files from a directory."""
-    episodes = []
-    files = sorted([
-        f for f in os.listdir(directory)
-        if f.startswith("episode-") and f.endswith(".txt")
-    ])
+def load_all_episodes(source: str = "merged.txt") -> list[Episode]:
+    """
+    Load and parse all episode files.
+    Accepts:
+      - Path to a single merged file (e.g. 'merged.txt')
+      - Path to a directory containing episode text files (e.g. 'input_episodes')
+    """
+    if os.path.isfile(source):
+        # Could be a single merged file or a single episode
+        with open(source, "r", encoding="utf-8") as f:
+            sample = f.read(4096)
+        # If it looks like a merged file with episodes or standard format
+        if "EPISODE NUMBER:" in sample:
+            episodes = parse_merged_screenplay(source)
+            if episodes:
+                return episodes
+        return [parse_episode(source)]
 
-    for filename in files:
-        filepath = os.path.join(directory, filename)
-        episode = parse_episode(filepath)
-        episodes.append(episode)
+    if os.path.isdir(source):
+        episodes = []
+        # Check if directory contains a merged.txt first
+        candidate_merged = os.path.join(source, "merged.txt")
+        if os.path.isfile(candidate_merged):
+            return parse_merged_screenplay(candidate_merged)
 
-    return episodes
+        files = sorted([
+            f for f in os.listdir(source)
+            if f.endswith(".txt") and not f.startswith(".")
+        ])
+
+        for filename in files:
+            filepath = os.path.join(source, filename)
+            # Check if this file is a merged file or single episode
+            with open(filepath, "r", encoding="utf-8") as f:
+                content = f.read()
+            if len(re.findall(r"EPISODE NUMBER:\s*Episode\s*\d+", content)) > 1:
+                episodes.extend(parse_merged_screenplay(content))
+            else:
+                episodes.append(parse_screenplay_text(content, filename=filename))
+
+        episodes.sort(key=lambda e: e.episode_number)
+        return episodes
+
+    # Fallback to local files if path wasn't found directly
+    if os.path.isfile("merged.txt"):
+        return parse_merged_screenplay("merged.txt")
+    if os.path.isdir("input_episodes"):
+        return load_all_episodes("input_episodes")
+
+    raise FileNotFoundError(f"Screenplay source not found at: {source}")
 
 
 def get_episode_text_window(episode: Episode, start_sec: float, end_sec: float) -> str:

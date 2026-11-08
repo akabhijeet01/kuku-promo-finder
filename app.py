@@ -275,11 +275,12 @@ st.markdown("""
 def load_default_data():
     """Load precomputed 50-episode ranked results and parsed episodes instantly."""
     ranked_json_path = Path("raw_outputs/promos_ranked.json")
-    input_dir = "input_episodes"
     
     episodes = []
-    if os.path.isdir(input_dir):
-        episodes = load_all_episodes(input_dir)
+    if os.path.isfile("merged.txt"):
+        episodes = load_all_episodes("merged.txt")
+    elif os.path.isdir("input_episodes"):
+        episodes = load_all_episodes("input_episodes")
         
     promos_data = []
     if ranked_json_path.exists():
@@ -306,15 +307,15 @@ with st.sidebar:
     
     input_mode = st.radio(
         "Source Material",
-        ["Bundled Pack (50 Episodes)", "Upload New Screenplays"],
+        ["Merged File (merged.txt - 50 eps)", "Input Pack (input_episodes/)", "Upload Screenplay File (.txt)"],
         index=0,
         help="Reads screenplays with scene, action, dialogue, and timestamp metadata."
     )
 
     uploaded_files = None
-    if input_mode == "Upload New Screenplays":
+    if input_mode == "Upload Screenplay File (.txt)":
         uploaded_files = st.file_uploader(
-            "Upload Screenplays (.txt)",
+            "Upload Screenplays or Merged .txt",
             type=["txt"],
             accept_multiple_files=True
         )
@@ -334,15 +335,22 @@ with st.sidebar:
 
     if rerun_button:
         with st.spinner("Analyzing dramatic density and timestamp boundaries across episodes..."):
-            target_dir = "input_episodes"
-            if uploaded_files:
-                target_dir = tempfile.mkdtemp()
-                for uf in uploaded_files:
-                    with open(os.path.join(target_dir, uf.name), "wb") as f:
-                        f.write(uf.read())
+            if input_mode == "Merged File (merged.txt - 50 eps)":
+                target_source = "merged.txt"
+            elif input_mode == "Input Pack (input_episodes/)":
+                target_source = "input_episodes"
+            else:
+                target_source = "merged.txt"
+                if uploaded_files:
+                    temp_dir = tempfile.mkdtemp()
+                    for uf in uploaded_files:
+                        temp_path = os.path.join(temp_dir, uf.name)
+                        with open(temp_path, "wb") as f:
+                            f.write(uf.read())
+                    target_source = temp_path if len(uploaded_files) == 1 else temp_dir
 
             ranked_objs, parsed_eps = run_promo_finder(
-                target_dir,
+                target_source,
                 api_key=gemini_key if use_gemini else None,
                 top_n=top_n_slider
             )
