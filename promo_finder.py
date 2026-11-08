@@ -131,6 +131,8 @@ class PromoCandidate:
                     "episode": s.episode_number,
                     "start": s.start_ts,
                     "end": s.end_ts,
+                    "start_seconds": round(s.start_seconds, 2),
+                    "end_seconds": round(s.end_seconds, 2),
                     "duration_seconds": round(s.duration_seconds, 1),
                 }
                 for s in self.segments
@@ -148,6 +150,7 @@ class PromoCandidate:
                 "cliffhanger": round(self.cliffhanger_score, 2),
                 "standalone": round(self.standalone_score, 2),
                 "overall_rank_score": round(self.rank_score, 2),
+                "overall": round(self.rank_score, 2),
             },
             "quality_issues": self.quality_issues,
             "storyboard_beats": self.storyboard_beats,

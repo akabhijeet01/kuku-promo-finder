@@ -71,6 +71,10 @@ class Episode:
         return max(s.end_seconds for s in self.scenes)
 
     @property
+    def total_duration(self) -> float:
+        return self.total_duration_seconds
+
+    @property
     def all_characters(self) -> set[str]:
         chars = set()
         for s in self.scenes:

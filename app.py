@@ -12,7 +12,7 @@ import tempfile
 from pathlib import Path
 from typing import Optional
 
-from screenplay_parser import load_all_episodes, format_timestamp
+from screenplay_parser import load_all_episodes, format_timestamp, parse_timestamp
 from promo_finder import run_promo_finder, PromoCandidate
 
 # ── Page Configuration ───────────────────────────────────────────────────
@@ -458,7 +458,11 @@ with tab_connect:
     connect_promos = [p for p in promos_list if "Connect the Dots" in p.get("promo_type", "")]
 
     if not connect_promos:
-        st.info("No Connect-the-Dots promos discovered in this dataset run.")
+        st.info(
+            "ℹ️ **Connect-the-Dots promos link upcoming thriller peaks (Episodes 18–41) with the origin betrayal (Episode 1) and paywall proposal (Episodes 3–5).**\n\n"
+            "Because your current input contains fewer episodes, single-episode promos are available in the **'Ranked Promos Library'** tab. "
+            "To see the 3-beat Connect-the-Dots ads, switch the sidebar source to **'Merged File (merged.txt - 50 eps)'** or upload the complete `merged.txt` file."
+        )
     else:
         for idx, promo in enumerate(connect_promos, 1):
             segments = promo.get("segments", [])
@@ -571,8 +575,13 @@ with tab_ranked:
     # Filter data
     filtered_promos = promos_list
     if selected_ep != "All Episodes":
-        filtered_promos = [p for p in filtered_promos if any(str(s["episode"]) == selected_ep for s in p.get("segments", []))]
-    filtered_promos = [p for p in filtered_promos if p.get("scores", {}).get("overall", 0) >= min_score_filter]
+        filtered_promos = [p for p in filtered_promos if any(str(s.get("episode")) == selected_ep for s in p.get("segments", []))]
+
+    def get_overall(p):
+        sc = p.get("scores", {})
+        return sc.get("overall", sc.get("overall_rank_score", 0))
+
+    filtered_promos = [p for p in filtered_promos if get_overall(p) >= min_score_filter]
 
     # Sort
     if sort_mode == "Hook Score":
@@ -584,7 +593,7 @@ with tab_ranked:
     elif sort_mode == "Duration (Shortest)":
         filtered_promos.sort(key=lambda p: p.get("total_duration_seconds", 0))
     else:
-        filtered_promos.sort(key=lambda p: p.get("scores", {}).get("overall", 0), reverse=True)
+        filtered_promos.sort(key=get_overall, reverse=True)
 
     st.markdown(f"Displaying **{len(filtered_promos)}** candidate clips matching criteria:")
 
@@ -637,16 +646,28 @@ with tab_ranked:
             # Dialogue Transcript Preview
             with st.expander("Read Exact Screenplay Lines for Editors"):
                 for s in segments:
-                    ep_obj = ep_map.get(s["episode"])
+                    ep_obj = ep_map.get(s.get("episode"))
                     if ep_obj:
-                        st.markdown(f"**Episode {s['episode']} [{s['start']} → {s['end']}]**")
+                        st.markdown(f"**Episode {s.get('episode')} [{s.get('start')} → {s.get('end')}]**")
+                        s_start = s.get("start_seconds")
+                        if s_start is None:
+                            s_start = parse_timestamp(s.get("start", "00:00.00"))
+                        s_end = s.get("end_seconds")
+                        if s_end is None:
+                            s_end = parse_timestamp(s.get("end", "00:00.00"))
+
+                        matched_lines = 0
                         for sc in ep_obj.scenes:
                             for d in sc.dialogue:
-                                if d.start_seconds >= s["start_seconds"] and d.end_seconds <= s["end_seconds"]:
+                                if d.start_seconds >= s_start and d.end_seconds <= s_end:
                                     st.markdown(f"- **{d.character}** *({d.emotion})*: \"{d.text}\" `[{d.start_ts}]`")
+                                    matched_lines += 1
                             for a in sc.actions:
-                                if a.type == "ACTION" and a.start_seconds >= s["start_seconds"] and a.end_seconds <= s["end_seconds"]:
+                                if a.type == "ACTION" and a.start_seconds >= s_start and a.end_seconds <= s_end:
                                     st.markdown(f"- *[{a.description}]* `[{a.start_ts}]`")
+                                    matched_lines += 1
+                        if matched_lines == 0:
+                            st.caption("No spoken dialogue in window; visual action beat.")
 
             st.markdown("</div>", unsafe_allow_html=True)
 
@@ -778,16 +799,17 @@ with tab_scripts:
     if not episodes_list:
         st.info("No screenplays loaded in memory.")
     else:
+        available_ep_nums = [ep.episode_number for ep in episodes_list]
         ep_selector = st.selectbox(
             "Select Episode to Read",
-            range(1, len(episodes_list) + 1),
+            available_ep_nums,
             format_func=lambda num: f"Episode {num}: {ep_map[num].logline[:80]}..." if num in ep_map and ep_map[num].logline else f"Episode {num}"
         )
 
         chosen_ep = ep_map.get(ep_selector)
         if chosen_ep:
             ep_col1, ep_col2, ep_col3 = st.columns(3)
-            ep_col1.metric("Runtime", f"{chosen_ep.total_duration:.1f}s")
+            ep_col1.metric("Runtime", f"{chosen_ep.total_duration_seconds:.1f}s")
             ep_col2.metric("Scenes", len(chosen_ep.scenes))
             ep_col3.metric("Dialogue Lines", len(chosen_ep.all_dialogue))
 
